@@ -9,7 +9,7 @@ class Student {
   // public section
   public:
   //    assignDetails() method declaration
-    void assignDetails(int sid, char n) ;
+    void assignDetails(int sid, const char *sname) ;
   //    display() method declaration
-    int display() ;
+    void display() ;
 };
